@@ -32,7 +32,7 @@ if (question2 === 'War Games' || question2 === 'war games') {
     alert('Ruh roh...wrong answer. Click OK and keep going to get to know more About Me!');
 }
 
-var question3 = prompt('Do you love to travel? Y/N').toLowerCase();
+var question3 = prompt('Does Jamilah love to travel? Y/N').toLowerCase();
 
 console.log(question3);
 
