@@ -42,7 +42,7 @@ if (question3 === 'yes' || question3 === 'y') {
     alert('Are you crazy?! I LOVE to travel!');
 }
 
-var question4 = prompt('Do I love to cook? Y/N').toLowerCase();
+var question4 = prompt('Do Jamilah love to cook? Y/N').toLowerCase();
 
 console.log(question4);
 
@@ -52,12 +52,12 @@ if (question4 === 'yes' || question4 === 'y') {
     alert('NO FOOD FOR YOU!')
 }
 
-var question5 = prompt('Do you love to workout?').toLowerCase();
+var question5 = prompt('Do Jamilah love to workout?').toLowerCase();
 
 console.log(question5);
 
 if (question5 === 'yes' || question5 === 'y') {
     var question5 = alert('I wouldn\'t say LOVE but I do when I have time.')
 } else {
-    alert('I do not LOVE it but I like to eat so...')
+    alert('You are right! I do not LOVE it but I like to eat so...')
 }
