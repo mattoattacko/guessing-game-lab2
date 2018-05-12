@@ -63,3 +63,37 @@ if (question5 === 'yes' || question5 === 'y') {
 } else {
     alert('You are right! I do not LOVE it but I like to eat so...')
 }
+
+//What is my favorite number, between 1 and 10?
+//answer is 7
+//give 4 oppertunities to guess correctly
+
+var favoriteNumber = ['7'];
+var counter = 0;
+var didTheyGetIt = false;
+
+while (counter < 5 && didTheyGetIt === false) {
+    var question6 = prompt('What is my favorite number between 1 and 10?');
+        for (var i = 0; i < favoriteNumber.length; i++) {
+         if (question6 === favoriteNumber[i]) {
+            question6 = true;
+    };
+    console.log(question6);
+
+};
+
+if (!didTheyGetIt) {
+    counter++;
+    alert('To bad! Wrong answer. Try again ' + user);
+    console.log(didTheyGetIt)
+}
+
+else {alert(user + ' Correct!');
+counter += 5;
+score++;
+}
+if (counter === 4) {
+    alert(user + 'My favorite number is 7');
+
+break;}
+}
