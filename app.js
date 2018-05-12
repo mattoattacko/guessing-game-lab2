@@ -5,6 +5,8 @@
 //console.log for useer imput
 //var user
 //use if else
+//more notes here 
+//Greeting the user
 
 var user = prompt('Hi, What is your name?');
 
